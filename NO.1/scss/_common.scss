@@ -1,0 +1,31 @@
+body {
+	color: $txt;
+	font-size: 0.9rem;
+}
+a {
+	color: $a_txt;
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+img {
+	max-width: 100%;
+}
+.container {
+	max-width: 960px;
+	padding: 0 4%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.section {
+	margin-bottom: 100px;
+	text-align: center;
+}
+.section_ttl {
+	display: inline-block;
+	font-size: 2rem;
+	margin-bottom: 60px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid $txt;
+}

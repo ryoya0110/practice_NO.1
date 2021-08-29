@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px) {
+	.about_content {
+		flex-flow: column;
+	}
+
+	.bicycle_content {
+		flex-flow: column;
+		li {
+			width: 100%;
+			margin-bottom: 34px;
+		}
+	}
+}
